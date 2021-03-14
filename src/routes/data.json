@@ -1,0 +1,58 @@
+[
+    {
+        "id": "1",
+        "tipo": "Electricidad",
+        "desc": "La electricidad se va por unos minutos",
+        "fecha": "04/01/21",
+        "ciudad": "Mexicali",
+        "colonia": "Montecarlo"
+    },
+    {
+        "id": "2",
+        "tipo": "Telefono",
+        "desc": "Las llamadas se cortan",
+        "fecha": "15/01/21",
+        "ciudad": "Mexicali",
+        "colonia": "Robledo"
+    },
+    {
+        "id": "3",
+        "tipo": "Agua",
+        "desc": "Baja presión del agua",
+        "fecha": "28/01/21",
+        "ciudad": "Tijuana",
+        "colonia": "San Roberto"
+    },
+    {
+        "id": "4",
+        "tipo": "Electricidad",
+        "desc": "Recibos muy grandes",
+        "fecha": "02/02/21",
+        "ciudad": "Tijuana",
+        "colonia": "San Benjamin"
+    },
+    {
+        "id": "5",
+        "tipo": "Agua",
+        "desc": "No hay agua",
+        "fecha": "25/02/21",
+        "ciudad": "Ensenada",
+        "colonia": "Bravo del Norte"
+    },
+    {
+        "id": "6",
+        "tipo": "Telefono",
+        "desc": "No sirve la línea",
+        "fecha": "07/03/21",
+        "ciudad": "Ensenada",
+        "colonia": "Delta Colorado"
+    },
+    {
+        "id": "7",
+        "tipo": "Agua",
+        "desc": "Agua con color raro",
+        "fecha": "10/03/21",
+        "ciudad": "Mexicali",
+        "colonia": "Villafontana"
+    }
+] 
