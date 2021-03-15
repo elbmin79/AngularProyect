@@ -54,5 +54,13 @@
         "fecha": "10/03/21",
         "ciudad": "Mexicali",
         "colonia": "Villafontana"
+    },
+    {
+        "id": "8",
+        "tipo": "Agua",
+        "desc": "Coca cola como agua",
+        "fecha": "11/03/21",
+        "ciudad": "Mexicali",
+        "colonia": "Villafontana"
     }
 ] 
