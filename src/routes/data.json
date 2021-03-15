@@ -62,5 +62,13 @@
         "fecha": "11/03/21",
         "ciudad": "Mexicali",
         "colonia": "Villafontana"
+    },
+    {
+        "id": "9",
+        "tipo": "Electricidad",
+        "desc": "Parpadean las luces",
+        "fecha": "30/01/21",
+        "ciudad": "Mexicali",
+        "colonia": "Villafontana"
     }
 ] 

@@ -87,21 +87,131 @@ router.get('/reporte/ciudad/:ciudad/colonia' , (req, res) =>{ //REPORTE QUE DEVU
     console.log("Con un total de "+cont+" quejas");
 });
 
-router.get('/reporte/ciudad/:ciudad/servicio/:servicio' , (req, res) =>{ //REPORTE QUE DEVUELVE SERVICIOS CON MAS QUEJAS DE DICHA CIUDAD
+router.get('/reporte/ciudad/:ciudad/servicio' , (req, res) =>{ //REPORTE QUE DEVUELVE SERVICIOS CON MAS QUEJAS DE DICHA CIUDAD
     const ciudad = req.params.ciudad;
-    const colonia = req.params.servicio;
-
+    var c = [];
+    let n=0;
+    let cont = 0;
+    quejas.forEach(queja => {
+        if(queja.ciudad.toUpperCase() == ciudad.toUpperCase()){
+            c[n]=queja.tipo;
+            n++;
+        }
+    });
+    console.log("El servicio con mas quejas en esta ciudad es: "+mostFrequent(c));
+    quejas.forEach(queja => {
+        if(queja.ciudad.toUpperCase() == ciudad.toUpperCase() && queja.tipo.toUpperCase() == mostFrequent(c).toUpperCase()){
+            cont++
+            console.log(queja);
+        }
+    });
+    console.log("Con un total de "+cont+" quejas");
 });
+
 
 router.get('/reporte/mes/:mes/servicio/:servicio' , (req, res) =>{ //REPORTE QUE DEVUELVE LAS QUEJAS DE DICHO SERVICIO EN EL MES INDICADO
     const mes = req.params.mes;
     const servicio = req.params.servicio;
+    let mes2 = "";
+    switch(true){
+        case mes == "01":
+            mes2="enero";
+            break;
+        case mes =="02":
+            mes2="febrero";
+            break;
+        case mes =="03":
+            mes2="marzo";
+            break;
+        case mes=="04":
+            mes2="abril";
+            break;
+        case mes=="05":
+            mes2="mayo";
+            break;   
+        case mes == "06":
+            mes2="junio";
+            break;
+        case mes == "07":
+            mes2="julio";
+            break;     
+        case mes == "08":
+            mes2="agosto";
+            break;
+        case mes == "09":
+            mes2="septiembre";
+            break;   
+        case mes == "10":
+            mes2="octubre";
+            break;
+        case mes == "11":
+            mes2="noviembre";
+            break;     
+        case mes == "12":
+            mes2="diciembre";
+            break;
+        default:
+            console.log("Error. Mes no existe.")
+            break;     
+    }
+    quejas.forEach(queja => {
+        if((queja.tipo.toUpperCase() == servicio.toUpperCase()) && (mes.charAt(0)==queja.fecha.charAt(3)) && (mes.charAt(1)==queja.fecha.charAt(4))){
+            console.log("Queja con id {"+queja.id+"} en el mes de "+ mes2 + " de tipo: "+queja.tipo);
+        }
+    });
 });
 
 router.get('/reporte/mes/:mes/ciudad/:ciudad/colonia/:colonia' , (req, res) =>{ //REPORTE QUE DEVUELVE LAS QUEJAS DE DICHA COLONIA Y CIUDAD EN EL MES INDICADO
     const mes = req.params.mes;
     const ciudad = req.params.ciudad;
     const colonia = req.params.colonia;
+    let mes2 = "";
+    switch(true){
+        case mes == "01":
+            mes2="enero";
+            break;
+        case mes =="02":
+            mes2="febrero";
+            break;
+        case mes =="03":
+            mes2="marzo";
+            break;
+        case mes=="04":
+            mes2="abril";
+            break;
+        case mes=="05":
+            mes2="mayo";
+            break;   
+        case mes == "06":
+            mes2="junio";
+            break;
+        case mes == "07":
+            mes2="julio";
+            break;     
+        case mes == "08":
+            mes2="agosto";
+            break;
+        case mes == "09":
+            mes2="septiembre";
+            break;   
+        case mes == "10":
+            mes2="octubre";
+            break;
+        case mes == "11":
+            mes2="noviembre";
+            break;     
+        case mes == "12":
+            mes2="diciembre";
+            break;
+        default:
+            console.log("Error. Mes no existe.")
+            break;     
+    }
+    quejas.forEach(queja => {
+        if((queja.ciudad.toUpperCase() == ciudad.toUpperCase()) && (queja.colonia.toUpperCase() == colonia.toUpperCase()) && (mes.charAt(0)==queja.fecha.charAt(3)) && (mes.charAt(1)==queja.fecha.charAt(4))){
+            console.log("Queja con id {"+queja.id+"} en el mes de "+ mes2 + " de la ciudad: "+queja.ciudad+" de la colonia: "+queja.colonia);
+        }
+    });
 });
 
 function mostFrequent(array) {
