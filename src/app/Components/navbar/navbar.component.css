@@ -1,0 +1,16 @@
+#bar{
+    background-color: #FF4F4F;
+    box-shadow: none !important;
+    margin-bottom: -42px;
+    color: #C2FF8C !important;
+}
+#navbar{
+    margin-top: 7px;
+    margin-left: 24%;
+    display: inline-block;
+    background-color: red;
+    border-radius: 30px;
+    width: 1070px;
+    height: 65px;
+    color: #C2FF8C !important;
+}

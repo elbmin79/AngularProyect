@@ -1,0 +1,109 @@
+#background{
+    background-image: linear-gradient(#FF4F4F,#FFCC3C,#FFE17E);
+    height: max-content;
+    margin-top: 42px;
+}
+
+#square{
+    margin-top: 18px;
+    margin-bottom: -18px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+#outside{
+    margin-top: -75px;
+}
+
+#boton{
+    margin-top: 0px;
+    height: 60px;
+    background-color: red;
+    border-radius: 20px;
+    border: 1px solid #C2FF8C;
+}
+
+#square2{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    width: 800px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+#square3{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.btn{
+    margin-top: 0px;
+    background-color: #C2FF8C;
+    box-shadow: none !important;
+    height: 90px;
+    width: 200px;
+    margin-bottom: 5px;
+}
+
+#summary{
+    color: #C2FF8C;
+    font-size: xx-large;
+}
+
+#address{
+    color: #6ec224;
+    font-size: xx-large;
+}
+
+#payment{
+    color: #FF4F4F;
+    font-size: xx-large;
+}
+
+#boton{
+    margin-bottom: 10px;
+}
+
+#divtotal{
+    height: 85px;
+    width: 200px;
+    background-color: red;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border: 2px solid #C2FF8C;
+}
+
+#divtotal > p{
+    margin-top: -.05px;
+}
+
+#doge{
+    height: 100px;
+    width: auto;
+}
+
+img{
+    width: auto !important;
+}
+
+#search{
+    padding-left: 25px;
+    background-color: white;
+    height: 80px;
+    border-radius: 45px;
+    font-size: x-large;
+}
+

@@ -1,0 +1,25 @@
+.card-title{
+    font-weight: bold;
+}
+.btntext{
+    color: #C2FF8C;
+}
+.card{
+    box-shadow: none;
+}
+.btn{
+    margin-top: 5px;
+    background-color: red;
+    border-radius: 20px;
+}
+.card-content{
+    margin-left: -25px;
+}
+.price{
+    font-weight: bold;
+    color: #306800;
+}
+.product{
+    height: 200px;
+    width: auto;
+}

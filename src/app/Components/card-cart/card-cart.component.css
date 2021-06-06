@@ -1,0 +1,24 @@
+#cartimage{
+    height: 125px;
+    width: auto;
+    border-radius: 17px;
+
+    z-index: 0;
+}
+.card-title{
+    padding-left: 15px;
+    font-size: medium;
+    font-weight: bold;
+}
+.card-price{
+    font-size: medium;
+    padding-left: 15px;
+    color:rgb(89, 160, 18);
+}
+#box{
+  
+    border-radius: 20px;
+    
+    z-index: 1;
+    background-color: #FFCC3C;
+}

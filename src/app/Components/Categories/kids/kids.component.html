@@ -1,0 +1,49 @@
+<div id="grad">
+    <br>
+    <div id="home" class="row">
+        <div style="margin-top: -70px;" class="col s3 center">
+            <br><br><br>
+            <p style="color:#C2FF8C; font-size: x-large;">FEATURED</p>
+            <img class="featured" src="../../../assets/Resources/Featured/cybertrunk.jpg">
+            <p  class="pfeatured" style="color:white; font-size: large;">Cyberpunk 2077</p>
+            <br><br><br><br><br><br>
+            <img class="featured" src="../../../assets/Resources/Featured/sottr.jpg">
+            <p  class="pfeatured" style="color:white; font-size: large;">SOTTR</p>
+            <br><br><br><br><br><br>
+            <img class="featured" src="../../../assets/Resources/Featured/fifa.jpg">
+            <p  class="pfeatured" style="color:white ; font-size: large;">FIFA 22</p>
+        </div>
+        <div class="col s6 center">
+            <div id="homedisplay">
+                <div >
+                    <div id="main">
+                        <p style="font-weight: bold; font-size: xx-large; margin-top: 45px;" class="center">Kids</p>
+                        <p style="margin-left: -70px; color: gray; font-size: medium;" class="center">Here are our picks for the best game titles for kids of all ages on all the current platforms.</p>
+                        <br>
+                        <br>
+                        <br>
+                        <div class="row">
+                            <div class="col s4">
+                                <span *ngFor="let product of productService.products let ind=index;">
+                                    <span *ngIf="product.category=='Kids'"><app-product [data]= "product"></app-product></span>
+                                </span>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+        <div style="margin-top: -70px;" class="col s3 center">
+            <br><br><br>
+            <p style="color:#C2FF8C; font-size: x-large;">FEATURED</p>
+            <img class="featured" src="../../../assets/Resources/Featured/doom.jpg">
+            <p  class="pfeatured" style="color:white; font-size: large;">Doom Eternal</p>
+            <br><br><br><br><br><br>
+            <img class="featured" src="../../../assets/Resources/Featured/2k.jpg">
+            <p  class="pfeatured" style="color:white; font-size: large;">NBA 2K21</p>
+            <br><br><br><br><br><br>
+            <img class="featured" src="../../../assets/Resources/Featured/sims.png">
+            <p  class="pfeatured" style="color:white ; font-size: large;">The Sims 4</p>
+        </div>
+    </div>
+</div>

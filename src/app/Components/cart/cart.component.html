@@ -1,0 +1,37 @@
+<div id="background" class="row" style="background-color: #FFCC3C;">
+    <div class="row">
+        <div class="col s3">
+        </div>
+        <div class="col s6">
+            <div class="row" id="square">
+                <div class="col s4"></div>
+                <div class="col s4">
+                    <app-card-cart *ngFor="let product of productService.getCart()" [product] = "product"></app-card-cart>
+                </div>
+                <div class="col s4"></div>
+            </div>
+        </div>
+        <div class="col s3">
+        </div>
+    </div>  
+    <br>
+    <br>
+    <div class="row">
+        <div class="col s3">
+        </div>
+        <div id="outside" class="col s6 center">
+            <div id="divtotal"><p style="font-size: larger; color: white;">Total: </p><p style="font-size: x-large; color: yellowgreen;">$0.00</p></div>
+            <a href="checkout"><div id="boton" class="btn">
+                <p>Checkout</p>
+            </div></a>
+        </div>
+        <div class="col s3">
+        </div>
+    </div> 
+    <br>
+    <br>
+    <br>
+    <br> 
+</div>
+
+

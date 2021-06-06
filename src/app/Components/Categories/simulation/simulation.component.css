@@ -1,0 +1,35 @@
+#grad {
+    background-image: linear-gradient(#FF4F4F,#FFCC3C,#FFE17E);
+}
+#home{
+    margin-top: 50px;
+}
+#homedisplay{
+    background-color: white;
+    width: 1070px;
+    margin-left: -30px;
+    margin-top: -17px;
+    border-radius: 30px;
+}
+.featured{
+    width: 300px;
+    height: auto;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    border-color: #C2FF8C;
+    border: 5px solid #C2FF8C;
+}
+.pfeatured{
+    margin-top: -23px;
+}
+#main{
+    
+    margin-left: 30px;
+}
+#main > p{
+    font-size: large;
+}
+#games{
+    width: 100px;
+    height: auto;;
+}

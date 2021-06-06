@@ -1,0 +1,22 @@
+<div class="row">
+    <div class="col s12 m7">
+      <div class="card">
+        <div class="row">
+            <div class="col s10">
+                <div class="card-image">
+                <a (click)="showPage()" href="productpage"><a href="productlist"><img class="product" src="../../../assets/Resources/Games/{{data.img}}.jpg"></a></a>
+                </div>
+            </div>
+            <div class="col s2">
+                <div class="card-content">
+                    <span class="card-title">{{data.title}}</span>
+                    <p>Price: </p><p class="price">{{data.price}}</p>
+                    <div class="btn">
+                        <a class="btntext" (click)="addToCart()">CART</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>

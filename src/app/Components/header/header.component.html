@@ -1,0 +1,23 @@
+<div id="header" class="row amber lighten-2">
+    <div class="l2 left">
+        <a href="#!"><img src="../../../assets/Icons/Logo.png" id="logo"></a>
+    </div>
+    <div id="middleheader">
+    <form id="searchform" class="col s7" #searchForm="ngForm" (ngSubmit)="searchbox(searchForm)">
+        <div class="row">
+          <div class="input-field">
+            <div class="col s11">
+                <input id="search" type="search" placeholder="search" name="search" [(ngModel)]="search">
+            </div>
+            <div class="col s1">
+                <button id="boton" type="submit"><img  id="searchbutton" class="right" src="../../../assets/Icons/search.png"></button>
+            </div>
+          </div>
+        </div>
+    </form>
+    </div>
+    <div id="righticons" class="l3 right">
+        <a href="cart"><img src="../../../assets/Icons/Cart.png" class="icons"></a>
+        <a href="account"><img src="../../../assets/Icons/Account.png" class="icons"></a>
+    </div>
+</div>

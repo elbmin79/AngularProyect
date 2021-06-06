@@ -1,0 +1,63 @@
+#account{
+    padding-top: 20px;
+    color: black;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+#fondo{
+    background-image: linear-gradient(#FF4F4F,#FFCC3C,#FFE17E);
+}
+
+#box{
+    border-radius: 20px;
+    margin-top: 75px;
+    background-color: white;
+}
+
+#shrek{
+    margin-top: 30px;
+    margin-left: 40%;
+    border: 0px solid #C2FF8C;
+    border-radius: 20px;
+    height: 200px;
+    width: auto;
+}
+
+#user{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+#description{
+    color:red;
+    font-weight: bold;
+}
+
+#cartimage{
+    border-radius: 20px;
+    height: 250px;
+    width: auto;
+}
+
+#change{
+    color: rgb(0, 76, 218);
+    font-style: italic;
+    text-decoration: underline;
+}
+
+#vip{
+    font-weight: bold;
+    color: rgb(199, 169, 0);
+    font-size: large;
+}
+
+.card-title{
+    margin-left: 10px;
+    
+}
+
+.card-price{
+    font-size: medium;
+    color: rgb(84, 139, 0);
+}
