@@ -1,74 +1,74 @@
 [
     {
         "id": "1",
-        "tipo": "Electricidad",
-        "desc": "La electricidad se va por unos minutos",
-        "fecha": "04/01/21",
-        "ciudad": "Mexicali",
-        "colonia": "Montecarlo"
+        "title": "Halo: Infinite",
+        "price": "$59.99",
+        "category": "Shooters",
+        "description": "Halo Infinite is an upcoming first-person shooter game developed by 343 Industries and published by Xbox Game Studios for Windows, Xbox One, and Xbox Series X/S",
+        "img": "halo"
     },
     {
         "id": "2",
-        "tipo": "Telefono",
-        "desc": "Las llamadas se cortan",
-        "fecha": "15/01/21",
-        "ciudad": "Mexicali",
-        "colonia": "Robledo"
+        "title": "Cyberpunk 2077",
+        "price": "$59.99",
+        "category": "Action",
+        "description": "Cyberpunk 2077 is an open-world, action-adventure story set in Night City, a megalopolis obsessed with power, glamour and body modification",
+        "img": "cyberpunk"
     },
     {
         "id": "3",
-        "tipo": "Agua",
-        "desc": "Baja presión del agua",
-        "fecha": "28/01/21",
-        "ciudad": "Tijuana",
-        "colonia": "San Roberto"
+        "title": "Resident Evil:Village",
+        "price": "$59.99",
+        "category": "Horror",
+        "description": "Resident Evil Village is a survival horror game developed and published by Capcom",
+        "img": "resident"
     },
     {
         "id": "4",
-        "tipo": "Electricidad",
-        "desc": "Recibos muy grandes",
-        "fecha": "02/02/21",
-        "ciudad": "Tijuana",
-        "colonia": "San Benjamin"
+        "title": "GTA: V",
+        "price": "$49.99",
+        "category": "Adventure",
+        "description": "Grand Theft Auto V is an action-adventure game played from either a third-person or first-person perspective",
+        "img": "gta"
     },
     {
         "id": "5",
-        "tipo": "Agua",
-        "desc": "No hay agua",
-        "fecha": "25/02/21",
-        "ciudad": "Ensenada",
-        "colonia": "Bravo del Norte"
+        "title": "Destiny 2",
+        "price": "$44.99",
+        "category": "Multiplayer",
+        "description": "Destiny 2 (also known as Destiny 2: New Light) is a free-to-play online-only multiplayer first-person shooter video game developed by Bungie",
+        "img": "destiny"
     },
     {
         "id": "6",
-        "tipo": "Telefono",
-        "desc": "No sirve la línea",
-        "fecha": "07/03/21",
-        "ciudad": "Ensenada",
-        "colonia": "Delta Colorado"
+        "title": "FIFA 22",
+        "price": "$59.99",
+        "category": "Simulation",
+        "description": "FIFA 22 is a football simulation video game published by Electronic Arts as part of the FIFA series",
+        "img": "fifa"
     },
     {
         "id": "7",
-        "tipo": "Agua",
-        "desc": "Agua con color raro",
-        "fecha": "10/03/21",
-        "ciudad": "Mexicali",
-        "colonia": "Villafontana"
+        "title": "DyingLight 2",
+        "price": "$59.99",
+        "category": "Strategy",
+        "description": "Dying Light 2 is a first-person, action survival horror game set in a vast and dangerous open world",
+        "img": "dyinglight"
     },
     {
         "id": "8",
-        "tipo": "Agua",
-        "desc": "Coca cola como agua",
-        "fecha": "11/03/21",
-        "ciudad": "Mexicali",
-        "colonia": "Villafontana"
+        "title": "Forza 5",
+        "price": "$59.99",
+        "category": "Simulation",
+        "description": "Forza is a series of simulation racing games for Xbox consoles, Windows 10, iOS and Android devices published by Xbox Game Studios",
+        "img": "forza"
     },
     {
         "id": "9",
-        "tipo": "Electricidad",
-        "desc": "Parpadean las luces",
-        "fecha": "30/01/21",
-        "ciudad": "Mexicali",
-        "colonia": "Villafontana"
+        "title": "GoW: Ragnarok",
+        "price": "$59.99",
+        "category": "RPG",
+        "description": "Based in ancient mythology, the story follows Kratos, a Spartan warrior who was tricked into killing his family by his former master, the Greek God of War Ares",
+        "img": "godofwar"
     }
 ] 

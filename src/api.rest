@@ -1,0 +1,31 @@
+###
+
+
+GET http://localhost:3000/api/productos
+
+###
+
+POST http://localhost:3000/api/productos
+Content-Type: application/json 
+
+{
+   "id": "37",
+    "title": "Everhood",
+    "price": "$7.99",
+    "category": "RPG",
+    "description": "An UNCONVENTIONAL ADVENTURE RPG that takes place in an inexpressible world filled with amusing musical battles and strange delightful encounters.",
+    "img": "everhood"
+}
+
+###
+
+DELETE http://localhost:3000/api/productos/60b96bd6a6bb233fdc1dfcfb
+
+###
+
+PUT http://localhost:3000/api/productos/60b96cffccd15f3e705fccfc
+
+{
+    "price": "$59.98",
+    "category": "Simulation"
+}
